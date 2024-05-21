@@ -117,7 +117,7 @@ header {
 }
 
 .main-photo {
-    background-image: url("img/background2.jpg");
+    background-image: url("assets/img/background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -686,7 +686,7 @@ footer{
 }
 
 .background{
-    background-image: url("img/background1.png");
+    background-image: url("assets/img/background1.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
