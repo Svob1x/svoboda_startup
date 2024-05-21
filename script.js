@@ -160,7 +160,7 @@ window.onclick = function(event) {
     }
 }
 
-$(document).ready(function(){
+$(document).ready(funct ion(){
     $("a").on('click', function(event) {
 
         if (this.hash !== "") {
