@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
 let persons = [{
     firstName : "Franta ",
     lastName : "Kryptobaron" ,
-    stars: "img/stars4.png",
-    image: "img/rev2.jpg",
+    stars: "assets/img/stars4.png",
+    image: "assets/img/rev2.jpg",
     desc: '"Svob Technologies exceeded my expectations. "' +
         '"The security system makes me feel so much safer, and the customer support was fantastic throughout the entire process. Five stars!"',
 
@@ -42,8 +42,8 @@ let persons = [{
     {
         firstName : "Tom ",
         lastName : "Holland" ,
-        stars: "img/stars3.png",
-        image: "img/rev1.jpg",
+        stars: "assets/img/stars3.png",
+        image: "assets/img/rev1.jpg",
         desc: '"Almost perfect! The All-in-One Smart Home package is incredible and has made my life much easier. The only minor issue was a slight delay in delivery, but everything else was top-notch."',
 
 
@@ -51,8 +51,8 @@ let persons = [{
     {
         firstName : "Dwayne ",
         lastName : "Johnson" ,
-        stars: "img/stars2.png",
-        image: "img/rev5.jpg",
+        stars: "assets/img/stars2.png",
+        image: "assets/img/rev5.jpg",
         desc: '"Great products and excellent customer service. The Basic Smart Home Kit is a fantastic introduction to home automation, though I wish there were more customization options."',
 
 
@@ -60,8 +60,8 @@ let persons = [{
     {
         firstName : "Bedřich ",
         lastName : "Klima" ,
-        stars: "img/stars.png",
-        image: "img/rev3.jpg",
+        stars: "assets/img/stars.png",
+        image: "assets/img/rev3.jpg",
         desc: '"The smart home features are convenient, but I encountered some issues with the initial setup. Customer support was helpful, but the process took longer than expected. Overall, a decent experience."',
 
 
@@ -69,8 +69,8 @@ let persons = [{
     {
         firstName : "Tomáš ",
         lastName : "Vykopal" ,
-        stars: "img/stars4.png",
-        image: "img/rev4.jpg",
+        stars: "assets/img/stars4.png",
+        image: "assets/img/rev4.jpg",
         desc: '"This smart home kit has transformed my daily routine. The installation was seamless, "' +
             '"and the convenience of controlling everything from my phone is unbeatable. Highly recommend!"',
     }];
@@ -160,7 +160,7 @@ window.onclick = function(event) {
     }
 }
 
-$(document).ready(funct ion(){
+$(document).ready(function(){
     $("a").on('click', function(event) {
 
         if (this.hash !== "") {

@@ -691,9 +691,138 @@ footer{
     background-size: 100%;
     background-position: center;
 }
+.modal-content h3{
+    text-align: center;
+}
 
-@media (max-width: 768px) {
-    .topnav {
+@media (max-width: 1890px){
+    .main-text h1{
+        font-size: 65px;
+
+    }
+    .main-text{
+        width: 85%;
+    }
+    .main-text p{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1520px){
+    .topnav{
+        width: 50%;
+    }
+    .contact-form{
+        width: 90%;
+    }
+    .offer h2{
+        font-size: 18px;
+    }
+    .offer h3{
+        font-size: 16px;
+    }
+    .offer p{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 1220px) {
+    .modal-content{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .contact-form{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: left;
+    }
+    .end-icons{
+        width: 30%;
+    }
+    .sign-up-form{
+        width: 80%;
+        text-align: left;
+    }
+    .get-in{
+        width: 80%;
+        margin-bottom: 50px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .topnav{
+        width: 65%;
+    }
+    .gallery-container{
+
+        width: 90%;
+    }
+    .main-text h1{
+        font-size: 65px;
+
+    }
+    .main-text{
+        width: 85%;
+    }
+    .main-text p{
+        font-size: 25px;
+    }
+    .about-text{
+        width: 70%;
+    }
+    .about-text p{
+        font-size: 18px;
+    }
+    .about-team{
+        flex-direction: column;
+    }
+    .member{
+        width: 70%;
+        padding-bottom: 50px;
+    }
+    .member-img{
+        width: 50%;
+    }
+    .offers-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .offer{
+        width: 50%;
+        padding-bottom: 50px;
+    }
+    .reviews-container{
+        width: 70%;
+    }
+    .reviews h1{
+        padding-bottom: 50px;
+    }
+    .person-container p{
+        font-size: 14px;
+    }
+    #person-image{
+        width: 30%;
+    }
+    #person-stars{
+        width: 30%;
+    }
+}
+@media (max-width: 950px) {
+    .modal-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .background{
+        background-image: url("assets/img/background5.png");
+
+    }
+    .end-icons{
+        width: 40%;
+    }
+    .topnav{
         display: none;
         flex-direction: column;
         width: 100%;
@@ -701,6 +830,29 @@ footer{
         left: 0;
         background-color: #2D2D2DFF;
 
+    }
+    .email,.name{
+        width: 100%;
+    }
+    .send-message{
+        flex-direction: column;
+        width: 100%;
+    }
+    .sign-up-form{
+        width: 80%;
+    }
+    .about-text{
+        width: 80%;
+    }
+    .main-text h1{
+        font-size: 50px;
+
+    }
+    .main-text{
+        width: 85%;
+    }
+    .main-text p{
+        font-size: 22px;
     }
 
     .topnav.active {
@@ -718,6 +870,156 @@ footer{
     .nav-logo img {
         width: 40%;
     }
+    .offer {
+        width: 70%;
+    }
+}
+@media (max-width: 768px) {
+    .modal-content h2{
+        font-size: 20px;
+    }
+    .modal-content h3{
+        font-size: 15px;
+    }
+    .modal-content p{
+        font-size: 14px;
+    }
+    .end-icons{
+        width: 50%;
+    }
+    .contact-form h3{
+        font-size: 16px;
+    }
+    .contact-form h1{
+        font-size: 24px;
+    }
+    .contact-form p{
+        font-size: 14px;
+    }
+    .get-in{
+        margin-bottom: 30px;
+    }
+    .topnav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background-color: #2D2D2DFF;
+
+    }
+    #button-previous,#button-next{
+        font-size: 28px;
+    }
+    .main-text h1{
+        font-size: 30px;
+
+    }
+    .main-text{
+        width: 85%;
+    }
+    .main-text p{
+        font-size: 17px;
+    }
+
+    .topnav.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        padding: 30px;
+    }
+
+    .nav-logo img {
+        width: 40%;
+    }
+    .about-text{
+        width: 80%;
+    }
+    .about-text p{
+        font-size: 15px;
+    }
+    .member{
+        width: 80%;
+    }
+    .member-img{
+        width: 60%;
+    }
+    .member p{
+        font-size: 14px;
+    }
+    .offer {
+        width: 90%;
+    }
+    .reviews-container{
+        width: 90%;
+    }
+    .name-container{
+        font-size: 16px;
+    }
+    #person-stars{
+        width: 35%;
+    }
+    #person-desc{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 425px) {
+    .fa.fa-arrow-right{
+        display: none;
+        margin-top: 20px;
+    }
+    .main-text h1{
+        font-size: 25px;
+
+    }
+    .modal-content h3{
+        margin-top: 20px;
+    }
+    .modal-process{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .background{
+        background-image: url("assets/img/background3.png");
+    }
+    .end-icons{
+        width: 80%;
+    }
+    .main-text{
+        width: 85%;
+    }
+    .main-text p{
+        font-size: 15px;
+    }
+    .member p{
+        font-size: 12px;
+    }
+    .member{
+        width: 70%;
+        padding-bottom: 50px;
+    }
+    .member-img{
+        width: 50%;
+    }
+    .offer h2{
+        font-size: 16px;
+    }
+    .offer h3{
+        font-size: 14px;
+    }
+    .offer p{
+        font-size: 12px;
+    }
+    .offer{
+        width: 100%;
+    }
+
 }
 
 
